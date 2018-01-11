@@ -2,6 +2,14 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+.logo {
+	position: absolute;
+	left: -5px;
+	top: -9px;
+	width: 99px;
+	height: 85px;
+	overflow: hidden;
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
