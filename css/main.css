@@ -6,10 +6,8 @@ body {
 	position: absolute;
 	left: -5px;
 	top: -9px;
-	max-width: 99px;
-	max-height: 85px;
-	width: auto
-	height: auto
+	width: 10%;
+	height: 10%;
 	overflow: hidden;
 }
 nav ul, footer ul {
