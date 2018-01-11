@@ -2,7 +2,7 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-.logo {
+#logo {
 	position: absolute;
 	left: -5px;
 	top: -9px;
