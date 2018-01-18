@@ -20,7 +20,8 @@ NAVBAR
 */
 
 header{
-	 background:#FFF;
+	 background:blue;
+	 box-shadow: 0 20px 20px rgba(0,0,0,.1);
 }
 
 header::after{
@@ -45,10 +46,12 @@ header a:hover{
 }
 
 nav{
-	float:right;
+	position:fixed;
+	top:0;
 }
 
 nav ul{
+	float:right;
 	margin:0;
 	padding:0;
 	list-style:none;
@@ -58,8 +61,6 @@ nav li{
 	display:inline-block;
 	margin: 0 15px;
 	padding-top: 22px;
-
-	position: relative;
 }
 
 nav a{
@@ -81,11 +82,28 @@ nav a::before{
 	position:absolute;
 }
 
-.page-img img{
-	height:10%;
-	width:10%;
+#main_logo{
+	color:#F59B71;
 }
 
+div.container.fixed-top{
+	background-color:#FFFFFF;
+	box-shadow: 0 20px 20px rgba(0,0,0,.1);
+}
+
+
+
+.img_caption{
+    margin-top: 0.5em;
+    margin-bottom: 3em;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+
+section.intro{
+	margin-top:100px;
+}
 
 
 .btn-xl {
@@ -182,7 +200,7 @@ h6 {
 
 
 footer.footer {
-  padding-top: 5rem;
+  padding-top: 1rem;
   padding-bottom: 5rem; }
   footer.footer .social-link {
     display: block;
