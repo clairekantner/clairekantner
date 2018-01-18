@@ -81,7 +81,10 @@ nav a::before{
 	position:absolute;
 }
 
-
+.page-img img{
+	height:10%;
+	width:10%;
+}
 
 
 
