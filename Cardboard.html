@@ -14,7 +14,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Claire Added Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
@@ -22,12 +22,18 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="img/blueflow.png" type="img/png">
 
+	<!--Emoji -->
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+	<!--Fontawesome-->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
   </head>
 
   <body id="page-top">
 
     <!-- Header Navigation -->
-	<header id="top_nav">
+	<header id="top_nav" class="mb-5">
 		<div class="container fixed-top" id="top_nav">
 			<nav class="navbar navbar-default navbar-static-top">
 			<span id="main_logo"><h3 class="logo"> <a href="index.html" id="main_logo">CK</a></h3></span>
@@ -40,41 +46,109 @@
 		</div>
 	</header>
 
+
 	<!--Intro-->
-	<section class="intro">
-		<div class="container col-lg-9 mt-5">
-			<h3 class="text-secondary">Cardboard Project</h3>
-			<h4>How can we enable students from all majors to practice design thinking to make change in the community?</h4>
+	<div class="row">
+		<div class="container col-xs-1"></div>
+		<div class="container col-md-8 col-xs-12 mt-5">
+			<h1 style="font-weight:900; font-size:5em" id=#title>Cardboard Lunchbox</h1>
+			<h4 style="font-weight:400;">How can we design a lunchbox with limited supplies and no adhesives?</h4>
+
+			<div align="center">
+					<div class="context">
+						<div class="row">
+							<div class="container col-lg-8">
+								<h6>Timespan</h6>
+								<p>4 Week Project, March 2017</p>
+						
+								<h6>Task</h6>
+								<p>Design a cardboard lunchbox with limited materials and no adhesives.</p>
+							
+							
+								</div>
+							<div class="container col-lg-3">
+								<h6>Toolbox</h6>
+									<li>Observation</li>
+									<li>Cardboard folding</li>
+							</div>
+						
+
+						</div>
+					</div>
+			</div>
+
+			<h3 id=#context>Context</h3>
+			<p>
+				The introductory design course required for all design majors was difficult but fun. I am not an industrial designer, but
+				this was a project that introduced me to implementing research and problem solving techniques to fill an interesting 
+				requirement: using only a 15x18 sheet of eflute cardboard to design a lunchbox container.
+			</p>
 		</div>
-	</section>
+	
+
+			<!--<div class="container col-md-8 col-xs-12 mt-5">
+				<h3 id=#research>Research</h3>
+				<p>Through observation, I discovered various pain points students encounter while interacting with food containers:</p>
+				<li>When it comes to sauce dipping, the container for sauce is liable to fall over.</li>
+				<li>Unnecessary waste is created</li>
+				<li>Trays are rarely offered outside of cafeterias, and so food and computers are often close together</li>
+			</div>
+
+
+			<div class="container col-md-8 col-xs-12 mt-5">
+				<p>With these in mind, I begun ideating concepts for boxes that would address these points.</p>		
+			</div> -->
+
+		<div class="container mt-5" align="center">
+			<img src="img/cardboardfinal.jpg" style="width:1100px;">
+			<p class="img_caption">Poster deliverable</p>
+		</div>	
+	</div>
+	
+
+
+
+
+
+
+
+
 
 	<hr>
+
+  
+
     <!-- Footer -->
     <footer class="footer text-center">
       <div class="container">
         <ul class="list-inline mb-0">
-			<li class="list-inline-item">
+			<li class="list-inline-item" target="_blank">
 			<a href="https://www.linkedin.com/in/claire-kantner-b09530129">
-				<p>LinkedIn</p>
+				<i class="fab fa-linkedin-in" style="transform: translateY(-5%)"></i>
 			</a>
 			</li>
-			  <li class="list-inline-item">
+			  <li class="list-inline-item" target="_blank">
 				<a href="https://medium.com/@clairekantner">
-				  <p>Medium</p>
+				  <i class="fab fa-medium-m"></i>
+				</a>
+			  </li>
+			  <li class="list-inline-item" target="_blank">
+				<a href="https://twitter.com/claire_kantner">
+				  <i class="fab fa-twitter"></i>
 				</a>
 			  </li>
 			  <li class="list-inline-item">
-				<a href="https://twitter.com/claire_kantner">
-				  <p>Twitter</p>
+				<a href="https://www.behance.net/ckantner438a" target="_blank">
+				  <i class="fab fa-behance"></i>
 				</a>
 			  </li>
 			  <li class="list-inline-item">
 				<a href="mailto:ckantner@uw.edu" target="_blank">
-				  <p>Email</p>
+				  <i class="fas fa-envelope"></i>
 				</a>
 			  </li>
-        </ul>
-        <p class="text-muted small mb-0">Designed and Built by Claire Kantner 2018</p>
+        </ul> 
+        <p class="text-muted small mb-0">Designed and Built by Claire Kantner <i class="em em-lower_left_crayon"></i> 2018</p>
       </div>
     </footer>
 

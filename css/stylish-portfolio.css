@@ -119,7 +119,9 @@ nav a::before{
 }
 
 
-h1,
+h1{font-color:white;}
+
+
 h2,
 h3,
 h4,

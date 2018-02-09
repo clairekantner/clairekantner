@@ -14,7 +14,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Claire Added Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
@@ -22,12 +22,18 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="img/blueflow.png" type="img/png">
 
+	<!--Emoji -->
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+	<!--Fontawesome-->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
   </head>
 
   <body id="page-top">
 
     <!-- Header Navigation -->
-	<header id="top_nav">
+	<header id="top_nav" class="mb-5">
 		<div class="container fixed-top" id="top_nav">
 			<nav class="navbar navbar-default navbar-static-top">
 			<span id="main_logo"><h3 class="logo"> <a href="index.html" id="main_logo">CK</a></h3></span>
@@ -40,41 +46,91 @@
 		</div>
 	</header>
 
-	<!--Intro-->
-	<section class="intro">
-		<div class="container col-lg-9 mt-5">
-			<h3 class="text-secondary">Process Blog Research</h3>
-			<h4>How can we ?</h4>
-		</div>
-	</section>
+	<!--Content-->
+		<div class="row">
+			<div class="container col-xs-1"></div>
+			<div class="container col-md-8 col-xs-12 mt-5">
+				<h1 style="font-weight:900; font-size:5em" id=#title>Process Blog Research</h1>
+				<h4 style="font-weight:400;">My first research experience</h4>
+				<h3 id=#intro>Intro</h3>
+				<p>This is it luigi</p>
+				<h3 id=#research>Research</h3>
 
+			</div>
+				
+			<div class="container mt-5" align="center">
+					<img src="img/interview_3.jpg" style="width:340px;">
+					<img src="img/interview_2.jpg" style="width:340px;"> 
+					<img src="img/interview_1.jpg" style="width:340px;">
+					<p class="img_caption">We grouped together and wrote down the main points from each interview</p>
+			</div>	
+			<div class="container col-md-8 col-xs-12 mt-5">
+				<p>
+				We interviewed three different students who had experienced the HCDE 210 class. After, we deduced main points
+				to help inspire new directions to take our projects.
+				
+				</p>
+				<h3 id=#poster>Final Poster</h3>
+			</div>
+			<div class="container mt-5" align="center">
+					<img src="img/poster.jpg" style="width:900px;">
+					<p class="img_caption">Our feedback system proposals in a poster, designed by me.</p>
+			</div>	
+			<div class="container col-md-8 col-xs-12 mt-5">
+				<p>I designed this poster to showcase the insights from our interviews</p>
+				<p>My project partner: Kush Tekriwal</p>
+				<h3 id=#takeaways>Takeaways</h3>
+				<i class="blockquote">
+				
+				"Coming into the class on day one, I knew I found my place. I loved the collaborative environment we had in our little classroom
+				with our small group. It almost seemed informal. This is a common theme I noticed throughout the research group:
+				where should one draw the line between professionalism and informalism? This question pertains to both in processing blogs and
+				in design spaces. Some groups in the DRG did research on different mediums that may make the process blog writing experience
+				less intimidating for students, such as adding photos, or using other websites like Youtube and Facebook. My research was 
+				about creating an environment that helps students and teachers learn from each other, and I can’t help but make this connection,
+				as every day seemed both fun and informative. There was never a moment where I felt like my ideas were shot down, and
+				yet we held each other accountable to do our best work. At the end, I felt like I was able to learn a lot, not only about process
+				blogs and the class design, but about myself, and which environment I thrive best in."
+				
+				</i>
+			</div>
+			<div class="container col-xs-1"></div>
+		</div>
 	<hr>
+
+  
+
     <!-- Footer -->
     <footer class="footer text-center">
       <div class="container">
         <ul class="list-inline mb-0">
-			<li class="list-inline-item">
+			<li class="list-inline-item" target="_blank">
 			<a href="https://www.linkedin.com/in/claire-kantner-b09530129">
-				<p>LinkedIn</p>
+				<i class="fab fa-linkedin-in" style="transform: translateY(-5%)"></i>
 			</a>
 			</li>
-			  <li class="list-inline-item">
+			  <li class="list-inline-item" target="_blank">
 				<a href="https://medium.com/@clairekantner">
-				  <p>Medium</p>
+				  <i class="fab fa-medium-m"></i>
+				</a>
+			  </li>
+			  <li class="list-inline-item" target="_blank">
+				<a href="https://twitter.com/claire_kantner">
+				  <i class="fab fa-twitter"></i>
 				</a>
 			  </li>
 			  <li class="list-inline-item">
-				<a href="https://twitter.com/claire_kantner">
-				  <p>Twitter</p>
+				<a href="https://www.behance.net/ckantner438a" target="_blank">
+				  <i class="fab fa-behance"></i>
 				</a>
 			  </li>
 			  <li class="list-inline-item">
 				<a href="mailto:ckantner@uw.edu" target="_blank">
-				  <p>Email</p>
+				  <i class="fas fa-envelope"></i>
 				</a>
 			  </li>
-        </ul>
-        <p class="text-muted small mb-0">Designed and Built by Claire Kantner 2018</p>
+        </ul> 
+        <p class="text-muted small mb-0">Designed and Built by Claire Kantner <i class="em em-lower_left_crayon"></i> 2018</p>
       </div>
     </footer>
 
