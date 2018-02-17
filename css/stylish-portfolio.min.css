@@ -125,7 +125,8 @@ nav a::before{
   margin-bottom: 10px;
   margin-left: 50px;
   padding-left: 15px;
-  border-left: 3px solid #1D809F;
+  border-left: 3px solid gray;
+    font-size: 1em;
 } 
 
 
