@@ -289,9 +289,16 @@ footer.footer .social-link:hover {
 	text-decoration: none; }
 
 footer.footer li{
-	font-size:2em;
+	font-size:1em;
 	margin:10px;
 }
+
+footer.footer p{
+    font-weight: 100;
+    font-size: 10pt;
+}
+
+
 
 a {
   color: #F59B71; }
