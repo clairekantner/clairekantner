@@ -227,6 +227,17 @@ h6 {
 	text-align:center;
 }
 
+#wip{
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    vertical-align: middle;
+    
+}
+
 .portfolio-item {
   display: block;
   height:300px;
@@ -288,12 +299,19 @@ footer.footer .social-link {
 	font-size:3em;}
 
 footer.footer .social-link:hover {
-	background-color: black;
+	background-color: gainsboro;
 	text-decoration: none; }
 
 footer.footer li{
 	font-size:1em;
 	margin:10px;
+}
+footer.footer a{
+    color:white;
+}
+footer.footer a:hover{
+    color:gainsboro;
+    transition:color .2s ease-out, background 1s ease-in;
 }
 
 footer.footer p{
@@ -301,12 +319,12 @@ footer.footer p{
     font-size: 10pt;
 }
 
-
+#video_background { position: absolute; bottom: 0px; right: 0px; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -1000; overflow: hidden; }
 
 a {
   color: #F59B71; }
   a:hover, a:focus, a:active {
-    color: black;
+    color: gainsboro;
 	text-decoration:none;}
 
 .btn-primary {
